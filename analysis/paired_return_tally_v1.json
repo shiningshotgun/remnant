@@ -1,0 +1,95 @@
+{
+ "arms": {
+  "ec_amnesic": {
+   "endpoint_k": 0,
+   "eval_tide_escapes": 0,
+   "n": 30,
+   "pre_training_eval_tide_escapes": 0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  "ec_curious": {
+   "endpoint_k": 30,
+   "eval_tide_escapes": 150,
+   "n": 30,
+   "pre_training_eval_tide_escapes": 0,
+   "wilson95": [
+    0.8865,
+    1.0
+   ]
+  },
+  "ec_curious_p25": {
+   "endpoint_k": 27,
+   "eval_tide_escapes": 135,
+   "n": 30,
+   "pre_training_eval_tide_escapes": 0,
+   "wilson95": [
+    0.7438,
+    0.9654
+   ]
+  },
+  "ec_only": {
+   "endpoint_k": 0,
+   "eval_tide_escapes": 0,
+   "n": 30,
+   "pre_training_eval_tide_escapes": 0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  "q_curious": {
+   "endpoint_k": 1,
+   "eval_tide_escapes": 5,
+   "n": 30,
+   "pre_training_eval_tide_escapes": 0,
+   "wilson95": [
+    0.0059,
+    0.1667
+   ]
+  }
+ },
+ "endpoint": "frozen policy escapes in all 5 post-training evaluation tides",
+ "eval_tides_per_seed": 5,
+ "n_seeds_per_arm": 30,
+ "posthoc_paired_sign_test": {
+  "ec_amnesic": {
+   "below_bonferroni_0.01_over_3": true,
+   "both_succeed": 0,
+   "losses": 0,
+   "neither": 0,
+   "p_one_sided": 9.313225746154785e-10,
+   "wins": 30
+  },
+  "ec_only": {
+   "below_bonferroni_0.01_over_3": true,
+   "both_succeed": 0,
+   "losses": 0,
+   "neither": 0,
+   "p_one_sided": 9.313225746154785e-10,
+   "wins": 30
+  },
+  "q_curious": {
+   "below_bonferroni_0.01_over_3": true,
+   "both_succeed": 1,
+   "losses": 0,
+   "neither": 0,
+   "p_one_sided": 1.862645149230957e-09,
+   "wins": 29
+  }
+ },
+ "preregistered_fisher_unpaired": {
+  "ec_amnesic": 8.455616946072368e-18,
+  "ec_only": 8.455616946072368e-18,
+  "q_curious": 2.621241253282434e-16
+ },
+ "seeds": [
+  7001,
+  7030
+ ],
+ "source": "results/return_tally_v1.json",
+ "source_sha256": "b3c6a3ac2bbd830ffd269e203e73e8e2a33ea4853e871a783d6850666345d9a9",
+ "unit": "seed"
+}

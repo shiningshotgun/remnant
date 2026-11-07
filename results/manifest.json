@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "b375bba441f62dd5d1dc6754229cb74e1fd66eb2",
+  "protocol": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "horizon_k_max": 100,
+    "loop_limit": 54
+  },
+  "configuration": {
+    "learning_rate": 0.3,
+    "gamma": 0.95,
+    "epsilon": 0.2,
+    "memory_blend": 0.5,
+    "memory_temperature": 0.1,
+    "memory_lookup_sample": 400
+  },
+  "environment": {
+    "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "machine": "arm64"
+  },
+  "execution": {
+    "command": "python -m remnant_core.study results --overwrite",
+    "wall_clock_seconds": 209.45
+  },
+  "artifact_hashes_sha256": {
+    "records.json": "7f8f0c7c9c3e5dd7e0a1ebf9f697f95571c50293634898c3e68ee56825a40498",
+    "outcomes.json": "07d35e7fdd2f61785a3903cee09751bd5a8fdd9f51d52b4829ff259c5990b43b",
+    "learners.json": "3bd4e1f067e0d0ad0e908ce497c291dab631c47f5554ec872f11b8825e316a39",
+    "character-activity.png": "27b407d66b8604c9faf86d2b98abce776c2a1ac0063c618fe9ce15380c90fff2",
+    "escape-timing.png": "2882d338e1edc4e0bcade7b6090989b5150b2aa2973015fd7adcc715c4f44b39",
+    "pearls-taken.png": "38d6c5f9bf6891be02433746f3ec3d94097e3641a2472ab6324809c7ec1c8ef0",
+    "reach-map.png": "ed48b113c1118ceb4bf8962efc373b31b5ff7eb8ed8298a190697a3ee71c88d9",
+    "route-choices.png": "5532a0876aa3ddd0fc33d5d7b16ed3d17e7355ad5826b040f83bd41b0ec22b5d",
+    "stride-economy.png": "489b558b7a9425e8c533b90b63df4a42f6f62523292c40c495183bb4c8b0fb76",
+    "visit-frequency.png": "2241672a4a7314dff2763c9c256e5556a66b23818ef4e9741517f80b6db556c1"
+  }
+}

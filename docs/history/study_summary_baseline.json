@@ -1,0 +1,193 @@
+{
+  "schema_version": "2.0.0",
+  "title": "Remnant: The Memory of No Escape",
+  "subtitle": "A tabular reinforcement-learning study of persistent memory across time-loop resets",
+  "task": "Evaluate whether a reinforcement learning agent persisting Q-values and episodic memory across environment resets can solve a delayed-reward escape maze under strict finite-horizon step limits.",
+  "baseline_study": {
+    "schema_version": "1.0.0",
+    "condition": "baseline_hidden_pearl_v1",
+    "environment": {
+      "name": "The Reach of Vesper",
+      "topology": "72-node discrete waypoint graph (6 named junctions, 66 chain nodes, 72 unit-stride links across 6 routes)",
+      "start_node": [
+        20,
+        0
+      ],
+      "escape_node": [
+        0,
+        14
+      ],
+      "step_cost": -0.01,
+      "loop_step_limit": 54,
+      "optimal_escape_strides": 42,
+      "pearls_first_escape_strides": 62
+    },
+    "methods": {
+      "algorithm": "Tabular Q-learning with non-parametric episodic memory blending",
+      "q_learning": {
+        "alpha": 0.3,
+        "gamma": 0.95,
+        "epsilon": 0.2
+      },
+      "episodic_memory": {
+        "beta_blend": 0.5,
+        "temperature_tau": 0.1,
+        "subsample_cap": 400,
+        "distance_metric": "Manhattan coordinate + symmetric difference on inventory"
+      },
+      "action_encoding": "Local arc index (0..3) sorted by incident edge id",
+      "truncation_update": "Terminal=False bootstrapped on max_a V(s_54, a)"
+    },
+    "study_protocol": {
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "total_seeds": 30,
+      "horizon_tides": 100,
+      "total_executed_strides": 162000
+    },
+    "measured_outcomes": {
+      "escaped_seeds": 0,
+      "censored_seeds": 30,
+      "escape_rate": 0.0,
+      "one_sided_95_percent_binomial_upper_bound": 0.095034,
+      "pearls_taken_at_loop_1": {
+        "active_seeds": 30,
+        "count": 0,
+        "rate": 0.0
+      },
+      "pearls_taken_at_loop_10": {
+        "active_seeds": 30,
+        "count": 0,
+        "rate": 0.0
+      },
+      "pearls_taken_at_loop_25": {
+        "active_seeds": 30,
+        "count": 8,
+        "rate": 0.2667
+      },
+      "pearls_taken_at_loop_50": {
+        "active_seeds": 30,
+        "count": 16,
+        "rate": 0.5333
+      },
+      "pearls_taken_at_loop_75": {
+        "active_seeds": 30,
+        "count": 27,
+        "rate": 0.9
+      },
+      "pearls_taken_at_loop_100": {
+        "active_seeds": 30,
+        "count": 28,
+        "rate": 0.9333
+      },
+      "wrecksmoor_departures_at_loop_100": {
+        "active_seeds": 30,
+        "total_successful_departures": 32,
+        "to_needle_cut": 2,
+        "to_chapel": 30,
+        "share_to_chapel": 0.9375
+      }
+    },
+    "evidence_artifacts": {
+      "frozen_records_sha256": "7f8f0c7c9c3e5dd7e0a1ebf9f697f95571c50293634898c3e68ee56825a40498",
+      "frozen_outcomes_sha256": "07d35e7fdd2f61785a3903cee09751bd5a8fdd9f51d52b4829ff259c5990b43b",
+      "frozen_learners_sha256": "3bd4e1f067e0d0ad0e908ce497c291dab631c47f5554ec872f11b8825e316a39",
+      "frozen_manifest_sha256": "baf4ff7db17fad450fb1dadc260330fd8f8accd0d6a6eba8ac6b9eb2b5b2e276"
+    }
+  },
+  "route_b_diagnostic": {
+    "schema_version": "2.0.0",
+    "condition": "tally_current_tide_pearl_v1",
+    "protocol": {
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "total_seeds": 3,
+      "horizon_k_max": 100,
+      "loop_limit": 54,
+      "eval_tides": 2
+    },
+    "methods": {
+      "algorithm": "Tabular Q-learning with non-parametric episodic memory blending and internal Route B current-tide tally policy state",
+      "policy_state_representation": "((row, col), frozenset(items), marker)",
+      "external_observation_representation": "((row, col), frozenset(items))",
+      "tally_marker_semantics": "Boolean marker set on pearl collection transition; resets to False at dawn; world observation and WorldModel remain blind to pearls",
+      "q_learning": {
+        "alpha": 0.3,
+        "gamma": 0.95,
+        "epsilon": 0.2
+      },
+      "episodic_memory": {
+        "beta_blend": 0.5,
+        "temperature_tau": 0.1,
+        "subsample_cap": 400
+      }
+    },
+    "measured_outcomes": {
+      "escaped_seeds": 0,
+      "censored_seeds": 3,
+      "escape_rate": 0.0,
+      "pre_training_control_escapes": 0,
+      "post_training_test_escapes": 0,
+      "screen_positive": false,
+      "pearls_taken_at_loop_100": {
+        "active_seeds": 3,
+        "count": 3,
+        "rate": 1.0
+      },
+      "wrecksmoor_departures_at_loop_100": {
+        "active_seeds": 3,
+        "total_successful_departures": 3,
+        "to_needle_cut": 0,
+        "to_chapel": 3,
+        "share_to_chapel": 1.0
+      }
+    },
+    "evidence_artifacts": {
+      "evaluations_sha256": "9a09eede12c781ae4f6ef60a3125ab7378ec81004f5d1999a9d6585cf65fff49",
+      "learners_sha256": "b012430cd912cc3d47acfc97d6d0441defcfd13e6ea3647628252e7400235c0b",
+      "manifest_sha256": "c614a07982cd7b91bd0301b4049046304a41412ab4fd43a83fb5899e9f5c3a63",
+      "outcomes_sha256": "94f9090f04e25e02d26b4d21beac749d6f09f084b8c885d586dbc6960aab1986",
+      "records_sha256": "493659be4203c43a925d7b3f6f07c09e60817cf5f5c35fe966a1375ddea67a85"
+    }
+  },
+  "verification_scope": {
+    "test_suite": "84 passing tests, 0 failures, 0 errors",
+    "replayed_physical_transitions_baseline": 162000,
+    "replayed_physical_transitions_diagnostic_evaluations": 648,
+    "reconstructed_models": 30,
+    "reproduced_saved_outcomes": true
+  }
+}

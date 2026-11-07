@@ -1,0 +1,30 @@
+# Routine checks. Standard library only; the full 2-minute experiment sweep is deliberately not run here.
+name: checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Source payload and compressed evidence (clean checkout)
+        run: |
+          python3 tools/verify_release.py
+          python3 tools/unpack_evidence.py --verify
+      - name: Test suite (stdlib only)
+        run: python3 -m unittest discover -s tests
+      - name: Smoke and gates
+        run: |
+          python3 experiments/run_return_tally_v1.py --smoke
+          python3 experiments/run_return_tally_v1.py --gate
+          python3 experiments/run_metabucket_td_v1.py --gate
+      - name: Frozen-policy demo
+        run: python3 tools/demo_frozen_policy.py
+      - name: Unpack evidence, verify raw hashes, check idempotence
+        run: |
+          python3 tools/unpack_evidence.py
+          python3 tools/verify_release.py --raw
+          python3 tools/unpack_evidence.py
+          python3 tools/verify_release.py

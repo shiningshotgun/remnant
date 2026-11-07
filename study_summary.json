@@ -1,0 +1,242 @@
+{
+ "schema_version": "3.0.0",
+ "title": "Remnant: The Memory of No Escape",
+ "description": "Time-loop reinforcement learning study: an agent (Wick) learns, only from tides it actually lived, to escape a deterministic 72-node tidal island that resets every 54 strides.",
+ "current_study": {
+  "id": "return_tally_v1",
+  "question": "After 100 lived tides, does Wick's frozen learned policy (no planner, no curiosity, no updates) escape, and is that due to what it learned?",
+  "answer": "Yes in this world: 30/30 seeds versus 1/30, 0/30, 0/30 for the three negative controls.",
+  "world": {
+   "name": "Reach of Vesper",
+   "nodes": 72,
+   "tide_length_strides": 54,
+   "shortest_escape_strides": 42,
+   "deterministic": true,
+   "fixed_start": true,
+   "rewards": {
+    "stride": -0.01,
+    "pearls": 1.0,
+    "lamp_key": 0.1,
+    "tidegate_escape": 10.0
+   },
+   "observation": "(position, items) with only the Lamp-Key visible",
+   "policy_state": "(position, items, current-tide pearl marker); remaining tide time not included"
+  },
+  "learned_component": "Return Tally: best discounted (gamma 0.95) return-to-go lived per (policy_state, action), returns bounded by the tide; exact-match tabular model-free episodic control",
+  "supplied_mechanisms": [
+   "curiosity tides: breadth-first walk to the nearest untried action on the experienced map",
+   "fixed seeded curiosity schedule, p = 0.5 per tide (not learned)",
+   "epsilon-greedy exploration in training, eps 0.2"
+  ],
+  "not_used": [
+   "simulated experience",
+   "counterfactual replay",
+   "model rollouts",
+   "bootstrapping across the dawn reset"
+  ],
+  "seeds": {
+   "confirmatory": "7001-7030 (all arms)",
+   "development_only": "9001-9003"
+  },
+  "training_tides_per_seed": 100,
+  "evaluation": {
+   "frozen_tides_per_seed": 5,
+   "endpoint": "frozen policy escapes in all 5 post-training tides",
+   "statistical_unit": "seed (n = 30 per arm); the 5 tides are repeated deployment checks in one deterministic world, not independent samples"
+  },
+  "arms": {
+   "ec_amnesic": {
+    "seeds_meeting_endpoint": 0,
+    "n_seeds": 30,
+    "wilson95": [
+     0.0,
+     0.1135
+    ],
+    "frozen_eval_tides_escaped": 0,
+    "frozen_eval_tides_total": 150,
+    "pre_training_eval_tides_escaped": 0,
+    "seeds_with_lived_escape": 0,
+    "first_lived_escape_tide_median": null,
+    "first_lived_escape_tide_range": null
+   },
+   "ec_curious": {
+    "seeds_meeting_endpoint": 30,
+    "n_seeds": 30,
+    "wilson95": [
+     0.8865,
+     1.0
+    ],
+    "frozen_eval_tides_escaped": 150,
+    "frozen_eval_tides_total": 150,
+    "pre_training_eval_tides_escaped": 0,
+    "seeds_with_lived_escape": 30,
+    "first_lived_escape_tide_median": 37,
+    "first_lived_escape_tide_range": [
+     29,
+     49
+    ]
+   },
+   "ec_curious_p25": {
+    "seeds_meeting_endpoint": 27,
+    "n_seeds": 30,
+    "wilson95": [
+     0.7438,
+     0.9654
+    ],
+    "frozen_eval_tides_escaped": 135,
+    "frozen_eval_tides_total": 150,
+    "pre_training_eval_tides_escaped": 0,
+    "seeds_with_lived_escape": 27,
+    "first_lived_escape_tide_median": 71,
+    "first_lived_escape_tide_range": [
+     44,
+     100
+    ]
+   },
+   "ec_only": {
+    "seeds_meeting_endpoint": 0,
+    "n_seeds": 30,
+    "wilson95": [
+     0.0,
+     0.1135
+    ],
+    "frozen_eval_tides_escaped": 0,
+    "frozen_eval_tides_total": 150,
+    "pre_training_eval_tides_escaped": 0,
+    "seeds_with_lived_escape": 0,
+    "first_lived_escape_tide_median": null,
+    "first_lived_escape_tide_range": null
+   },
+   "q_curious": {
+    "seeds_meeting_endpoint": 1,
+    "n_seeds": 30,
+    "wilson95": [
+     0.0059,
+     0.1667
+    ],
+    "frozen_eval_tides_escaped": 5,
+    "frozen_eval_tides_total": 150,
+    "pre_training_eval_tides_escaped": 0,
+    "seeds_with_lived_escape": 30,
+    "first_lived_escape_tide_median": 37,
+    "first_lived_escape_tide_range": [
+     29,
+     49
+    ]
+   }
+  },
+  "primary_arm": "ec_curious",
+  "negative_controls": [
+   "q_curious",
+   "ec_amnesic",
+   "ec_only"
+  ],
+  "secondary_arm": "ec_curious_p25",
+  "comparison_note": "Arms share the exploration mechanism and curiosity coin, not identical training experience.",
+  "statistics": {
+   "preregistered_fisher_one_sided_unpaired": {
+    "ec_amnesic": 8.455616946072368e-18,
+    "ec_only": 8.455616946072368e-18,
+    "q_curious": 2.621241253282434e-16
+   },
+   "posthoc_paired_sign_test_one_sided": {
+    "ec_amnesic": {
+     "wins": 30,
+     "losses": 0,
+     "p": 9.313225746154785e-10
+    },
+    "ec_only": {
+     "wins": 30,
+     "losses": 0,
+     "p": 9.313225746154785e-10
+    },
+    "q_curious": {
+     "wins": 29,
+     "losses": 0,
+     "p": 1.862645149230957e-09
+    }
+   },
+   "threshold_each": 0.0033333333333333335,
+   "preregistered_decision": {
+    "P1": true,
+    "P2": true,
+    "P3": true,
+    "P4": true,
+    "claim_supported_pending_P5": true
+   }
+  },
+  "deployed_route": {
+   "strides": 42,
+   "tide_return": 9.68,
+   "junctions": [
+    "Wrecksmoor Landing",
+    "Needle Cut",
+    "Net Loft",
+    "Harbor Lock",
+    "Tidegate"
+   ],
+   "identical_across": "all 150 primary-arm evaluation tides"
+  },
+  "limitations": [
+   "one fixed deterministic world and start; no evidence of transfer, general navigation or superiority to modern RL methods",
+   "discovery relies on supplied frontier walking and a fixed curiosity schedule",
+   "remaining tide time is not in the state; no general attainability guarantee for remembered maxima",
+   "legacy-learner failure explanations are diagnoses, not isolated causes",
+   "design checked on dev seeds 9001-9003 before pre-registration; confirmatory seeds were fresh"
+  ]
+ },
+ "artifacts": {
+  "results/return_tally_v1.json": "b3c6a3ac2bbd830ffd269e203e73e8e2a33ea4853e871a783d6850666345d9a9",
+  "docs/preregistration_return_tally_v1.md": "52291de791f5a3f0d06737dd0b2a93febf9ac4d014883b476aaabf50e7e0da67",
+  "experiments/run_return_tally_v1.py": "cb5c4cb6331878b362c3cdd8d1f072db563617c037169703957ee54d20825012",
+  "remnant_core/return_tally.py": "c1b030190ec27297224970a57dc52cf18be1d91f19251f71a2e6242e872feb8b",
+  "remnant_core/episodic_runner.py": "524c54996780f355d7c279fa419afb284cc89c627867bf8284f52d2f2aecc1d0",
+  "analysis/paired_return_tally_v1.json": "e00a84faed837331d3de462ede270ce2cb8559ce27cc292bf62321c6bcf4d528"
+ },
+ "docs": {
+  "readme": "README.md",
+  "methods": "docs/methods.md",
+  "results": "docs/results.md",
+  "reproduce": "docs/reproduce.md",
+  "related_work": "docs/related_work.md",
+  "history": "docs/history/README.md"
+ },
+ "reproduce": {
+  "interpreter_tested": "CPython 3.12.15",
+  "dependencies": "none for the study; matplotlib 3.9.2 optional for figures",
+  "verify": [
+   "python3 -m unittest discover -s tests",
+   "python3 experiments/run_return_tally_v1.py --smoke",
+   "python3 experiments/run_return_tally_v1.py --gate",
+   "python3 experiments/run_metabucket_td_v1.py --gate",
+   "python3 tools/verify_release.py"
+  ],
+  "demo": "python3 tools/demo_frozen_policy.py",
+  "figures": "python3 analysis/figures_return_tally_v1.py",
+  "full_rerun": "python3 tools/reproduce_return_tally_v1.py --dest <new directory outside the tree> --full"
+ },
+ "historical": {
+  "baseline_hidden_pearl_v1": "30 seeds (101-130), 0/30 escapes; a different agent, not a matched arm; see docs/history/",
+  "metabucket_v1_and_td_v1": "3 seeds each; learned selectors 0/3; random-selection control 3/3 with planner-executed escapes"
+ },
+ "references": [
+  {
+   "title": "Model-Free Episodic Control",
+   "authors": "Blundell et al.",
+   "year": 2016,
+   "url": "https://arxiv.org/abs/1606.04460"
+  },
+  {
+   "title": "First return, then explore",
+   "authors": "Ecoffet et al.",
+   "year": 2021,
+   "url": "https://adrien.ecoffet.com/publication/2021-02-24-first-return-then-explore"
+  },
+  {
+   "title": "Episodic Curiosity through Reachability",
+   "authors": "Savinov et al.",
+   "year": 2019,
+   "url": "https://research.google/pubs/episodic-curiosity-through-reachability/"
+  }
+ ]
+}

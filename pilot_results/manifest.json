@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "source_commit": "16d791b98bb51d3790f82dbf756e69aa68ad448d",
+  "source_provenance": "git HEAD when available; unknown means unverifiable",
+  "source_hashes_sha256": {
+    "__init__.py": "8bc8b03d5356a6df8a55ad21c5c448b8d450083a6602120dd6a33497e9bf6ff0",
+    "agent.py": "4dbe76379bd7eb4b70975263f5e75a62a37a5d6920713073d722a051f6d04c19",
+    "analysis.py": "d528ef40c6d1c9de56d0244ac1af1b5228472688ddd2588479b4bba2034be2d7",
+    "characters.py": "80a46f51241fead4755bdff38bbe84e3bc48f7a2c4c4a7bac5245444ece20008",
+    "config.py": "1c088cfaaff579dd2f22b5e98621aa17a8715a0a3fe1722c158f1759f0ea4104",
+    "figures.py": "2ff4f96388d37c3c42521ad9837b42c8f19cfb351ebaab21158b0139f18e4923",
+    "memory.py": "15b4f5a33819f2685c349f8a45bda072947aaee45221be121e96b42cc18e257f",
+    "model.py": "1d29d2ddf4743beb0b680a98b26e307a7455e46cd4c2c075560d55907956145a",
+    "reach_solver.py": "98737cb82da6fbe29134b81f044ea6bdab6f8e2024e0dc082fe064fe4398e984",
+    "runner.py": "f8e4c2144626e96f25cda1af188c3e009420387124476f602cb5ea182d807d2b",
+    "solver.py": "efcacb41240b0e667706b67c716b13cc35f0a4d5b36321dfb9b1452dd153d9bd",
+    "study.py": "b574d1022e901f1ffe7180cedf4d27b1bee5f8cd9ca8024fc9a469e459bcc953",
+    "study_config.py": "4fcd92096e6dd89da0fb2f20bd08c64968dd61dc26eee7e015c0e8840de81bd7",
+    "worlds/__init__.py": "7fdb315afd4f8e8bc60fba06ea454d6ffe9577940e2c580a921e28a3d9e9c817",
+    "worlds/grid.py": "98764132991e768e6fc17ce5aff28ffc1eb17d44f57343d1d89c866615bec29a",
+    "worlds/reach.py": "166f99fe753907c9f3ed0082466b60097758fa6999691e8a78606ab855c67059"
+  },
+  "protocol": {
+    "seeds": [
+      201,
+      202,
+      203
+    ],
+    "horizon_k_max": 100,
+    "loop_limit": 54
+  },
+  "configuration": {
+    "rewards": {
+      "stride": -0.01,
+      "pearls": 1.0,
+      "lamp_key": 0.1,
+      "tidegate": 10.0
+    },
+    "learning_rate": 0.3,
+    "gamma": 0.95,
+    "epsilon": 0.2,
+    "memory_blend": 0.5,
+    "memory_temperature": 0.1,
+    "memory_lookup_sample": 400
+  },
+  "environment": {
+    "installed_packages": {
+      "matplotlib": "3.9.2",
+      "packaging": "26.3",
+      "numpy": "2.0.2",
+      "kiwisolver": "1.4.7",
+      "contourpy": "1.3.0",
+      "fonttools": "4.60.2",
+      "zipp": "3.23.1",
+      "cycler": "0.12.1",
+      "tzdata": "2026.6",
+      "pip": "26.0.1",
+      "pillow": "11.3.0",
+      "python-dateutil": "3.0.0",
+      "setuptools": "58.0.4",
+      "pyparsing": "3.3.3",
+      "six": "1.17.0",
+      "importlib_resources": "6.5.2"
+    },
+    "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "machine": "arm64"
+  },
+  "execution": {
+    "command": "pilot_run",
+    "wall_clock_seconds": 21.1073
+  },
+  "artifact_hashes_sha256": {
+    "records.json": "b08f3ad7761f8dad9fdb2e1626c2ece00d32c3d19170ae3c9d49d4c9132704fc",
+    "outcomes.json": "a5d582ba1e72333658724c77a25e6ea08b39fcfe5bb210feaae5d124e2efac9c",
+    "learners.json": "3aa3d0715eab13ed5da3831d81da294da5ce67d7981a6d767f715e5763a96e98"
+  }
+}

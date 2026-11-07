@@ -1,0 +1,7347 @@
+{
+  "schema_version": "1.0.0",
+  "protocol": {
+    "seeds": [
+      201,
+      202,
+      203
+    ],
+    "horizon_k_max": 100,
+    "loop_limit": 54
+  },
+  "summary": {
+    "total_seeds": 3,
+    "escaped_count": 0,
+    "censored_count": 3,
+    "escape_rate": 0.0,
+    "mean_escape_loops": null,
+    "min_escape_loop": null,
+    "max_escape_loop": null,
+    "escaped_seeds": [],
+    "censored_seeds": [
+      201,
+      202,
+      203
+    ],
+    "escape_distribution": {}
+  },
+  "per_loop": {
+    "pearls_taken": {
+      "1": {
+        "loop": 1,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "2": {
+        "loop": 2,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "3": {
+        "loop": 3,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "4": {
+        "loop": 4,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "5": {
+        "loop": 5,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "6": {
+        "loop": 6,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "7": {
+        "loop": 7,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "8": {
+        "loop": 8,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "9": {
+        "loop": 9,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "10": {
+        "loop": 10,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "11": {
+        "loop": 11,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "12": {
+        "loop": 12,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "13": {
+        "loop": 13,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "14": {
+        "loop": 14,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "15": {
+        "loop": 15,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "16": {
+        "loop": 16,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "17": {
+        "loop": 17,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "18": {
+        "loop": 18,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "19": {
+        "loop": 19,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "20": {
+        "loop": 20,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "21": {
+        "loop": 21,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "22": {
+        "loop": 22,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "23": {
+        "loop": 23,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "24": {
+        "loop": 24,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "25": {
+        "loop": 25,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "26": {
+        "loop": 26,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "27": {
+        "loop": 27,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "28": {
+        "loop": 28,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "29": {
+        "loop": 29,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "30": {
+        "loop": 30,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "31": {
+        "loop": 31,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "32": {
+        "loop": 32,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "33": {
+        "loop": 33,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "34": {
+        "loop": 34,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "35": {
+        "loop": 35,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "36": {
+        "loop": 36,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "37": {
+        "loop": 37,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "38": {
+        "loop": 38,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "39": {
+        "loop": 39,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "40": {
+        "loop": 40,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "41": {
+        "loop": 41,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "42": {
+        "loop": 42,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "43": {
+        "loop": 43,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "44": {
+        "loop": 44,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "45": {
+        "loop": 45,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "46": {
+        "loop": 46,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "47": {
+        "loop": 47,
+        "active_seeds": 3,
+        "pearls_taken_count": 0,
+        "pearls_taken_rate": 0.0
+      },
+      "48": {
+        "loop": 48,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "49": {
+        "loop": 49,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "50": {
+        "loop": 50,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "51": {
+        "loop": 51,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "52": {
+        "loop": 52,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "53": {
+        "loop": 53,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "54": {
+        "loop": 54,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "55": {
+        "loop": 55,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "56": {
+        "loop": 56,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "57": {
+        "loop": 57,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "58": {
+        "loop": 58,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "59": {
+        "loop": 59,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "60": {
+        "loop": 60,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "61": {
+        "loop": 61,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "62": {
+        "loop": 62,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "63": {
+        "loop": 63,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "64": {
+        "loop": 64,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "65": {
+        "loop": 65,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "66": {
+        "loop": 66,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "67": {
+        "loop": 67,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "68": {
+        "loop": 68,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "69": {
+        "loop": 69,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "70": {
+        "loop": 70,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "71": {
+        "loop": 71,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "72": {
+        "loop": 72,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "73": {
+        "loop": 73,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "74": {
+        "loop": 74,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "75": {
+        "loop": 75,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "76": {
+        "loop": 76,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "77": {
+        "loop": 77,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "78": {
+        "loop": 78,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "79": {
+        "loop": 79,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "80": {
+        "loop": 80,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "81": {
+        "loop": 81,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "82": {
+        "loop": 82,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "83": {
+        "loop": 83,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "84": {
+        "loop": 84,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "85": {
+        "loop": 85,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "86": {
+        "loop": 86,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "87": {
+        "loop": 87,
+        "active_seeds": 3,
+        "pearls_taken_count": 1,
+        "pearls_taken_rate": 0.3333
+      },
+      "88": {
+        "loop": 88,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "89": {
+        "loop": 89,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "90": {
+        "loop": 90,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "91": {
+        "loop": 91,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "92": {
+        "loop": 92,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "93": {
+        "loop": 93,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "94": {
+        "loop": 94,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "95": {
+        "loop": 95,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "96": {
+        "loop": 96,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "97": {
+        "loop": 97,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      },
+      "98": {
+        "loop": 98,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "99": {
+        "loop": 99,
+        "active_seeds": 3,
+        "pearls_taken_count": 2,
+        "pearls_taken_rate": 0.6667
+      },
+      "100": {
+        "loop": 100,
+        "active_seeds": 3,
+        "pearls_taken_count": 3,
+        "pearls_taken_rate": 1.0
+      }
+    },
+    "stride_economy": {
+      "1": {
+        "loop": 1,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "2": {
+        "loop": 2,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "3": {
+        "loop": 3,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "4": {
+        "loop": 4,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "5": {
+        "loop": 5,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "6": {
+        "loop": 6,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "7": {
+        "loop": 7,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "8": {
+        "loop": 8,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "9": {
+        "loop": 9,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "10": {
+        "loop": 10,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "11": {
+        "loop": 11,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "12": {
+        "loop": 12,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "13": {
+        "loop": 13,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "14": {
+        "loop": 14,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "15": {
+        "loop": 15,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "16": {
+        "loop": 16,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "17": {
+        "loop": 17,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "18": {
+        "loop": 18,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "19": {
+        "loop": 19,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "20": {
+        "loop": 20,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "21": {
+        "loop": 21,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "22": {
+        "loop": 22,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "23": {
+        "loop": 23,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "24": {
+        "loop": 24,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "25": {
+        "loop": 25,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "26": {
+        "loop": 26,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "27": {
+        "loop": 27,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "28": {
+        "loop": 28,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "29": {
+        "loop": 29,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "30": {
+        "loop": 30,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "31": {
+        "loop": 31,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "32": {
+        "loop": 32,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "33": {
+        "loop": 33,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "34": {
+        "loop": 34,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "35": {
+        "loop": 35,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "36": {
+        "loop": 36,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "37": {
+        "loop": 37,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "38": {
+        "loop": 38,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "39": {
+        "loop": 39,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "40": {
+        "loop": 40,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "41": {
+        "loop": 41,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "42": {
+        "loop": 42,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "43": {
+        "loop": 43,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "44": {
+        "loop": 44,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "45": {
+        "loop": 45,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "46": {
+        "loop": 46,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "47": {
+        "loop": 47,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "48": {
+        "loop": 48,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "49": {
+        "loop": 49,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "50": {
+        "loop": 50,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "51": {
+        "loop": 51,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "52": {
+        "loop": 52,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "53": {
+        "loop": 53,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "54": {
+        "loop": 54,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "55": {
+        "loop": 55,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "56": {
+        "loop": 56,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "57": {
+        "loop": 57,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "58": {
+        "loop": 58,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "59": {
+        "loop": 59,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "60": {
+        "loop": 60,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "61": {
+        "loop": 61,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "62": {
+        "loop": 62,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "63": {
+        "loop": 63,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "64": {
+        "loop": 64,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "65": {
+        "loop": 65,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "66": {
+        "loop": 66,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "67": {
+        "loop": 67,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "68": {
+        "loop": 68,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "69": {
+        "loop": 69,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "70": {
+        "loop": 70,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "71": {
+        "loop": 71,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "72": {
+        "loop": 72,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "73": {
+        "loop": 73,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "74": {
+        "loop": 74,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "75": {
+        "loop": 75,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "76": {
+        "loop": 76,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "77": {
+        "loop": 77,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "78": {
+        "loop": 78,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "79": {
+        "loop": 79,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "80": {
+        "loop": 80,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "81": {
+        "loop": 81,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "82": {
+        "loop": 82,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "83": {
+        "loop": 83,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "84": {
+        "loop": 84,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "85": {
+        "loop": 85,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "86": {
+        "loop": 86,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "87": {
+        "loop": 87,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "88": {
+        "loop": 88,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "89": {
+        "loop": 89,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "90": {
+        "loop": 90,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "91": {
+        "loop": 91,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "92": {
+        "loop": 92,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "93": {
+        "loop": 93,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "94": {
+        "loop": 94,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "95": {
+        "loop": 95,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "96": {
+        "loop": 96,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "97": {
+        "loop": 97,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "98": {
+        "loop": 98,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "99": {
+        "loop": 99,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      },
+      "100": {
+        "loop": 100,
+        "active_seeds": 3,
+        "mean_strides": 54.0,
+        "pop_sd_strides": 0.0
+      }
+    },
+    "route_choices_wrecksmoor": {
+      "1": {
+        "loop": 1,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 6,
+        "departures_to_chapel": 7,
+        "total_departures": 13,
+        "departures_per_active_seed": 4.3333,
+        "share_to_needle_cut": 0.4615,
+        "share_to_chapel": 0.5385
+      },
+      "2": {
+        "loop": 2,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "3": {
+        "loop": 3,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 11,
+        "departures_to_chapel": 6,
+        "total_departures": 17,
+        "departures_per_active_seed": 5.6667,
+        "share_to_needle_cut": 0.6471,
+        "share_to_chapel": 0.3529
+      },
+      "4": {
+        "loop": 4,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 5,
+        "departures_to_chapel": 4,
+        "total_departures": 9,
+        "departures_per_active_seed": 3.0,
+        "share_to_needle_cut": 0.5556,
+        "share_to_chapel": 0.4444
+      },
+      "5": {
+        "loop": 5,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 5,
+        "departures_to_chapel": 5,
+        "total_departures": 10,
+        "departures_per_active_seed": 3.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "6": {
+        "loop": 6,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 4,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "7": {
+        "loop": 7,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 6,
+        "departures_to_chapel": 6,
+        "total_departures": 12,
+        "departures_per_active_seed": 4.0,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "8": {
+        "loop": 8,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.75,
+        "share_to_chapel": 0.25
+      },
+      "9": {
+        "loop": 9,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 5,
+        "departures_to_chapel": 5,
+        "total_departures": 10,
+        "departures_per_active_seed": 3.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "10": {
+        "loop": 10,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 5,
+        "total_departures": 9,
+        "departures_per_active_seed": 3.0,
+        "share_to_needle_cut": 0.4444,
+        "share_to_chapel": 0.5556
+      },
+      "11": {
+        "loop": 11,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 3,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_needle_cut": 0.5714,
+        "share_to_chapel": 0.4286
+      },
+      "12": {
+        "loop": 12,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "13": {
+        "loop": 13,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 4,
+        "total_departures": 8,
+        "departures_per_active_seed": 2.6667,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "14": {
+        "loop": 14,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "15": {
+        "loop": 15,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.2,
+        "share_to_chapel": 0.8
+      },
+      "16": {
+        "loop": 16,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.75,
+        "share_to_chapel": 0.25
+      },
+      "17": {
+        "loop": 17,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 6,
+        "departures_to_chapel": 4,
+        "total_departures": 10,
+        "departures_per_active_seed": 3.3333,
+        "share_to_needle_cut": 0.6,
+        "share_to_chapel": 0.4
+      },
+      "18": {
+        "loop": 18,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 4,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "19": {
+        "loop": 19,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 5,
+        "total_departures": 9,
+        "departures_per_active_seed": 3.0,
+        "share_to_needle_cut": 0.4444,
+        "share_to_chapel": 0.5556
+      },
+      "20": {
+        "loop": 20,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "21": {
+        "loop": 21,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 0,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 1.0,
+        "share_to_chapel": 0.0
+      },
+      "22": {
+        "loop": 22,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 4,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_needle_cut": 0.4286,
+        "share_to_chapel": 0.5714
+      },
+      "23": {
+        "loop": 23,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "24": {
+        "loop": 24,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 6,
+        "total_departures": 8,
+        "departures_per_active_seed": 2.6667,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "25": {
+        "loop": 25,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 1,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.8,
+        "share_to_chapel": 0.2
+      },
+      "26": {
+        "loop": 26,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "27": {
+        "loop": 27,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 5,
+        "departures_to_chapel": 3,
+        "total_departures": 8,
+        "departures_per_active_seed": 2.6667,
+        "share_to_needle_cut": 0.625,
+        "share_to_chapel": 0.375
+      },
+      "28": {
+        "loop": 28,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.2,
+        "share_to_chapel": 0.8
+      },
+      "29": {
+        "loop": 29,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 2,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.6,
+        "share_to_chapel": 0.4
+      },
+      "30": {
+        "loop": 30,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "31": {
+        "loop": 31,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 5,
+        "total_departures": 9,
+        "departures_per_active_seed": 3.0,
+        "share_to_needle_cut": 0.4444,
+        "share_to_chapel": 0.5556
+      },
+      "32": {
+        "loop": 32,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "33": {
+        "loop": 33,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "34": {
+        "loop": 34,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "35": {
+        "loop": 35,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 5,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_needle_cut": 0.2857,
+        "share_to_chapel": 0.7143
+      },
+      "36": {
+        "loop": 36,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "37": {
+        "loop": 37,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "38": {
+        "loop": 38,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "39": {
+        "loop": 39,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 5,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "40": {
+        "loop": 40,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "41": {
+        "loop": 41,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 5,
+        "departures_to_chapel": 0,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 1.0,
+        "share_to_chapel": 0.0
+      },
+      "42": {
+        "loop": 42,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.2,
+        "share_to_chapel": 0.8
+      },
+      "43": {
+        "loop": 43,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 2,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "44": {
+        "loop": 44,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 4,
+        "departures_to_chapel": 3,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_needle_cut": 0.5714,
+        "share_to_chapel": 0.4286
+      },
+      "45": {
+        "loop": 45,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "46": {
+        "loop": 46,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "47": {
+        "loop": 47,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.75,
+        "share_to_chapel": 0.25
+      },
+      "48": {
+        "loop": 48,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.2,
+        "share_to_chapel": 0.8
+      },
+      "49": {
+        "loop": 49,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "50": {
+        "loop": 50,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 3,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.4,
+        "share_to_chapel": 0.6
+      },
+      "51": {
+        "loop": 51,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "52": {
+        "loop": 52,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.75,
+        "share_to_chapel": 0.25
+      },
+      "53": {
+        "loop": 53,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "54": {
+        "loop": 54,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "55": {
+        "loop": 55,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 4,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "56": {
+        "loop": 56,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "57": {
+        "loop": 57,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "58": {
+        "loop": 58,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "59": {
+        "loop": 59,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.75,
+        "share_to_chapel": 0.25
+      },
+      "60": {
+        "loop": 60,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "61": {
+        "loop": 61,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "62": {
+        "loop": 62,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "63": {
+        "loop": 63,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "64": {
+        "loop": 64,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "65": {
+        "loop": 65,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 3,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.4,
+        "share_to_chapel": 0.6
+      },
+      "66": {
+        "loop": 66,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "67": {
+        "loop": 67,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "68": {
+        "loop": 68,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.6667,
+        "share_to_chapel": 0.3333
+      },
+      "69": {
+        "loop": 69,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "70": {
+        "loop": 70,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "71": {
+        "loop": 71,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 4,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "72": {
+        "loop": 72,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "73": {
+        "loop": 73,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "74": {
+        "loop": 74,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "75": {
+        "loop": 75,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "76": {
+        "loop": 76,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "77": {
+        "loop": 77,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "78": {
+        "loop": 78,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "79": {
+        "loop": 79,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "80": {
+        "loop": 80,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "81": {
+        "loop": 81,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "82": {
+        "loop": 82,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "83": {
+        "loop": 83,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 5,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_needle_cut": 0.1667,
+        "share_to_chapel": 0.8333
+      },
+      "84": {
+        "loop": 84,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "85": {
+        "loop": 85,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "86": {
+        "loop": 86,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_needle_cut": 0.2,
+        "share_to_chapel": 0.8
+      },
+      "87": {
+        "loop": 87,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "88": {
+        "loop": 88,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 4,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "89": {
+        "loop": 89,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "90": {
+        "loop": 90,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "91": {
+        "loop": 91,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "92": {
+        "loop": 92,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "93": {
+        "loop": 93,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "94": {
+        "loop": 94,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "95": {
+        "loop": 95,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "96": {
+        "loop": 96,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "97": {
+        "loop": 97,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "98": {
+        "loop": 98,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.25,
+        "share_to_chapel": 0.75
+      },
+      "99": {
+        "loop": 99,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_needle_cut": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "100": {
+        "loop": 100,
+        "active_seeds": 3,
+        "departures_to_needle_cut": 0,
+        "departures_to_chapel": 4,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_needle_cut": 0.0,
+        "share_to_chapel": 1.0
+      }
+    },
+    "route_choices_needle_cut": {
+      "1": {
+        "loop": 1,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 1.0,
+        "share_to_chapel": 0.0
+      },
+      "2": {
+        "loop": 2,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "3": {
+        "loop": 3,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.3333
+      },
+      "4": {
+        "loop": 4,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "5": {
+        "loop": 5,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "6": {
+        "loop": 6,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "7": {
+        "loop": 7,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "8": {
+        "loop": 8,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_net_loft": 0.6,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.4
+      },
+      "9": {
+        "loop": 9,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "10": {
+        "loop": 10,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "11": {
+        "loop": 11,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "12": {
+        "loop": 12,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "13": {
+        "loop": 13,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "14": {
+        "loop": 14,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "15": {
+        "loop": 15,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "16": {
+        "loop": 16,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 3,
+        "departures_to_chapel": 2,
+        "total_departures": 8,
+        "departures_per_active_seed": 2.6667,
+        "share_to_net_loft": 0.375,
+        "share_to_wrecksmoor": 0.375,
+        "share_to_chapel": 0.25
+      },
+      "17": {
+        "loop": 17,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "18": {
+        "loop": 18,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "19": {
+        "loop": 19,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "20": {
+        "loop": 20,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "21": {
+        "loop": 21,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.1667,
+        "share_to_chapel": 0.5
+      },
+      "22": {
+        "loop": 22,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "23": {
+        "loop": 23,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 3,
+        "departures_to_chapel": 1,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_net_loft": 0.4286,
+        "share_to_wrecksmoor": 0.4286,
+        "share_to_chapel": 0.1429
+      },
+      "24": {
+        "loop": 24,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "25": {
+        "loop": 25,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_net_loft": 0.2,
+        "share_to_wrecksmoor": 0.2,
+        "share_to_chapel": 0.6
+      },
+      "26": {
+        "loop": 26,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "27": {
+        "loop": 27,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_net_loft": 0.6,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.4
+      },
+      "28": {
+        "loop": 28,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "29": {
+        "loop": 29,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "30": {
+        "loop": 30,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.3333
+      },
+      "31": {
+        "loop": 31,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.3333
+      },
+      "32": {
+        "loop": 32,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.25,
+        "share_to_chapel": 0.25
+      },
+      "33": {
+        "loop": 33,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.1667,
+        "share_to_wrecksmoor": 0.1667,
+        "share_to_chapel": 0.6667
+      },
+      "34": {
+        "loop": 34,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 0,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.5,
+        "share_to_chapel": 0.0
+      },
+      "35": {
+        "loop": 35,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "36": {
+        "loop": 36,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "37": {
+        "loop": 37,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 2,
+        "departures_to_chapel": 2,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_net_loft": 0.4286,
+        "share_to_wrecksmoor": 0.2857,
+        "share_to_chapel": 0.2857
+      },
+      "38": {
+        "loop": 38,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 2,
+        "departures_to_chapel": 1,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.1667
+      },
+      "39": {
+        "loop": 39,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "40": {
+        "loop": 40,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.6667,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.3333
+      },
+      "41": {
+        "loop": 41,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 4,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.1667,
+        "share_to_wrecksmoor": 0.1667,
+        "share_to_chapel": 0.6667
+      },
+      "42": {
+        "loop": 42,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.6667,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.3333
+      },
+      "43": {
+        "loop": 43,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.6667,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.3333
+      },
+      "44": {
+        "loop": 44,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "45": {
+        "loop": 45,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "46": {
+        "loop": 46,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "47": {
+        "loop": 47,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 3,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_net_loft": 0.4286,
+        "share_to_wrecksmoor": 0.1429,
+        "share_to_chapel": 0.4286
+      },
+      "48": {
+        "loop": 48,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "49": {
+        "loop": 49,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "50": {
+        "loop": 50,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.6667,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.3333
+      },
+      "51": {
+        "loop": 51,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "52": {
+        "loop": 52,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.5
+      },
+      "53": {
+        "loop": 53,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "54": {
+        "loop": 54,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.5,
+        "share_to_chapel": 0.5
+      },
+      "55": {
+        "loop": 55,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "56": {
+        "loop": 56,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_net_loft": 0.25,
+        "share_to_wrecksmoor": 0.25,
+        "share_to_chapel": 0.5
+      },
+      "57": {
+        "loop": 57,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "58": {
+        "loop": 58,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "59": {
+        "loop": 59,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.5
+      },
+      "60": {
+        "loop": 60,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 2,
+        "departures_to_chapel": 3,
+        "total_departures": 6,
+        "departures_per_active_seed": 2.0,
+        "share_to_net_loft": 0.1667,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.5
+      },
+      "61": {
+        "loop": 61,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.5
+      },
+      "62": {
+        "loop": 62,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 2,
+        "departures_to_chapel": 3,
+        "total_departures": 7,
+        "departures_per_active_seed": 2.3333,
+        "share_to_net_loft": 0.2857,
+        "share_to_wrecksmoor": 0.2857,
+        "share_to_chapel": 0.4286
+      },
+      "63": {
+        "loop": 63,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "64": {
+        "loop": 64,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.6667
+      },
+      "65": {
+        "loop": 65,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "66": {
+        "loop": 66,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 0,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.5,
+        "share_to_chapel": 0.0
+      },
+      "67": {
+        "loop": 67,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_net_loft": 0.6,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.4
+      },
+      "68": {
+        "loop": 68,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.3333
+      },
+      "69": {
+        "loop": 69,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "70": {
+        "loop": 70,
+        "active_seeds": 3,
+        "departures_to_net_loft": 3,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 4,
+        "departures_per_active_seed": 1.3333,
+        "share_to_net_loft": 0.75,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.25
+      },
+      "71": {
+        "loop": 71,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "72": {
+        "loop": 72,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "73": {
+        "loop": 73,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "74": {
+        "loop": 74,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "75": {
+        "loop": 75,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "76": {
+        "loop": 76,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 1,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.3333
+      },
+      "77": {
+        "loop": 77,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.5
+      },
+      "78": {
+        "loop": 78,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "79": {
+        "loop": 79,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "80": {
+        "loop": 80,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "81": {
+        "loop": 81,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "82": {
+        "loop": 82,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "83": {
+        "loop": 83,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "84": {
+        "loop": 84,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "85": {
+        "loop": 85,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "86": {
+        "loop": 86,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "87": {
+        "loop": 87,
+        "active_seeds": 3,
+        "departures_to_net_loft": 2,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 5,
+        "departures_per_active_seed": 1.6667,
+        "share_to_net_loft": 0.4,
+        "share_to_wrecksmoor": 0.2,
+        "share_to_chapel": 0.4
+      },
+      "88": {
+        "loop": 88,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "89": {
+        "loop": 89,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 1,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.5,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.5
+      },
+      "90": {
+        "loop": 90,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "91": {
+        "loop": 91,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "92": {
+        "loop": 92,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 1,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.3333,
+        "share_to_chapel": 0.6667
+      },
+      "93": {
+        "loop": 93,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 2,
+        "departures_per_active_seed": 0.6667,
+        "share_to_net_loft": 0.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 1.0
+      },
+      "94": {
+        "loop": 94,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "95": {
+        "loop": 95,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "96": {
+        "loop": 96,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "97": {
+        "loop": 97,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      },
+      "98": {
+        "loop": 98,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 1,
+        "departures_per_active_seed": 0.3333,
+        "share_to_net_loft": 1.0,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.0
+      },
+      "99": {
+        "loop": 99,
+        "active_seeds": 3,
+        "departures_to_net_loft": 1,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 2,
+        "total_departures": 3,
+        "departures_per_active_seed": 1.0,
+        "share_to_net_loft": 0.3333,
+        "share_to_wrecksmoor": 0.0,
+        "share_to_chapel": 0.6667
+      },
+      "100": {
+        "loop": 100,
+        "active_seeds": 3,
+        "departures_to_net_loft": 0,
+        "departures_to_wrecksmoor": 0,
+        "departures_to_chapel": 0,
+        "total_departures": 0,
+        "departures_per_active_seed": 0.0,
+        "share_to_net_loft": null,
+        "share_to_wrecksmoor": null,
+        "share_to_chapel": null
+      }
+    },
+    "character_telemetry": {
+      "1": {
+        "loop": 1,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "2": {
+        "loop": 2,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "3": {
+        "loop": 3,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "4": {
+        "loop": 4,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "5": {
+        "loop": 5,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "greeting Wick warmly": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "6": {
+        "loop": 6,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "7": {
+        "loop": 7,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "8": {
+        "loop": 8,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "9": {
+        "loop": 9,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "10": {
+        "loop": 10,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "11": {
+        "loop": 11,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "12": {
+        "loop": 12,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "greeting Wick warmly": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "13": {
+        "loop": 13,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 158,
+              "fraction": 0.9753
+            },
+            "greeting Wick warmly": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "14": {
+        "loop": 14,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "15": {
+        "loop": 15,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "16": {
+        "loop": 16,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "17": {
+        "loop": 17,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "18": {
+        "loop": 18,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 157,
+              "fraction": 0.9691
+            },
+            "greeting Wick warmly": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "19": {
+        "loop": 19,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "20": {
+        "loop": 20,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 155,
+              "fraction": 0.9568
+            },
+            "greeting Wick warmly": {
+              "count": 5,
+              "fraction": 0.0309
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "21": {
+        "loop": 21,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "22": {
+        "loop": 22,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "greeting Wick warmly": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "23": {
+        "loop": 23,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 149,
+              "fraction": 0.9198
+            },
+            "greeting Wick warmly": {
+              "count": 13,
+              "fraction": 0.0802
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "24": {
+        "loop": 24,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "greeting Wick warmly": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "25": {
+        "loop": 25,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "26": {
+        "loop": 26,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 152,
+              "fraction": 0.9383
+            },
+            "greeting Wick warmly": {
+              "count": 10,
+              "fraction": 0.0617
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "27": {
+        "loop": 27,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "28": {
+        "loop": 28,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 138,
+              "fraction": 0.8519
+            },
+            "greeting Wick warmly": {
+              "count": 22,
+              "fraction": 0.1358
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "29": {
+        "loop": 29,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 153,
+              "fraction": 0.9444
+            },
+            "greeting Wick warmly": {
+              "count": 7,
+              "fraction": 0.0432
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "30": {
+        "loop": 30,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 155,
+              "fraction": 0.9568
+            },
+            "greeting Wick warmly": {
+              "count": 7,
+              "fraction": 0.0432
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "31": {
+        "loop": 31,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 143,
+              "fraction": 0.8827
+            },
+            "greeting Wick warmly": {
+              "count": 16,
+              "fraction": 0.0988
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "32": {
+        "loop": 32,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 152,
+              "fraction": 0.9383
+            },
+            "greeting Wick warmly": {
+              "count": 9,
+              "fraction": 0.0556
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "33": {
+        "loop": 33,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 148,
+              "fraction": 0.9136
+            },
+            "greeting Wick warmly": {
+              "count": 12,
+              "fraction": 0.0741
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "34": {
+        "loop": 34,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 141,
+              "fraction": 0.8704
+            },
+            "greeting Wick warmly": {
+              "count": 19,
+              "fraction": 0.1173
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "35": {
+        "loop": 35,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 151,
+              "fraction": 0.9321
+            },
+            "greeting Wick warmly": {
+              "count": 10,
+              "fraction": 0.0617
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "36": {
+        "loop": 36,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 139,
+              "fraction": 0.858
+            },
+            "greeting Wick warmly": {
+              "count": 20,
+              "fraction": 0.1235
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "37": {
+        "loop": 37,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 157,
+              "fraction": 0.9691
+            },
+            "greeting Wick warmly": {
+              "count": 4,
+              "fraction": 0.0247
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "38": {
+        "loop": 38,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 146,
+              "fraction": 0.9012
+            },
+            "greeting Wick warmly": {
+              "count": 14,
+              "fraction": 0.0864
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "39": {
+        "loop": 39,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 131,
+              "fraction": 0.8086
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "40": {
+        "loop": 40,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 138,
+              "fraction": 0.8519
+            },
+            "greeting Wick warmly": {
+              "count": 22,
+              "fraction": 0.1358
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "41": {
+        "loop": 41,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "42": {
+        "loop": 42,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 136,
+              "fraction": 0.8395
+            },
+            "greeting Wick warmly": {
+              "count": 23,
+              "fraction": 0.142
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "43": {
+        "loop": 43,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 150,
+              "fraction": 0.9259
+            },
+            "greeting Wick warmly": {
+              "count": 10,
+              "fraction": 0.0617
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "44": {
+        "loop": 44,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 143,
+              "fraction": 0.8827
+            },
+            "greeting Wick warmly": {
+              "count": 19,
+              "fraction": 0.1173
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "45": {
+        "loop": 45,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 125,
+              "fraction": 0.7716
+            },
+            "greeting Wick warmly": {
+              "count": 32,
+              "fraction": 0.1975
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "46": {
+        "loop": 46,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 121,
+              "fraction": 0.7469
+            },
+            "greeting Wick warmly": {
+              "count": 38,
+              "fraction": 0.2346
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "47": {
+        "loop": 47,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "telling a recurring story": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "48": {
+        "loop": 48,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 126,
+              "fraction": 0.7778
+            },
+            "greeting Wick warmly": {
+              "count": 31,
+              "fraction": 0.1914
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "49": {
+        "loop": 49,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 142,
+              "fraction": 0.8765
+            },
+            "greeting Wick warmly": {
+              "count": 18,
+              "fraction": 0.1111
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "50": {
+        "loop": 50,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 147,
+              "fraction": 0.9074
+            },
+            "greeting Wick warmly": {
+              "count": 13,
+              "fraction": 0.0802
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "51": {
+        "loop": 51,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 113,
+              "fraction": 0.6975
+            },
+            "greeting Wick warmly": {
+              "count": 43,
+              "fraction": 0.2654
+            },
+            "inviting Wick to stay": {
+              "count": 6,
+              "fraction": 0.037
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "52": {
+        "loop": 52,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 152,
+              "fraction": 0.9383
+            },
+            "greeting Wick warmly": {
+              "count": 10,
+              "fraction": 0.0617
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "telling a recurring story": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "53": {
+        "loop": 53,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 130,
+              "fraction": 0.8025
+            },
+            "greeting Wick warmly": {
+              "count": 30,
+              "fraction": 0.1852
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "54": {
+        "loop": 54,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 128,
+              "fraction": 0.7901
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "55": {
+        "loop": 55,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 115,
+              "fraction": 0.7099
+            },
+            "greeting Wick warmly": {
+              "count": 40,
+              "fraction": 0.2469
+            },
+            "inviting Wick to stay": {
+              "count": 7,
+              "fraction": 0.0432
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "56": {
+        "loop": 56,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 149,
+              "fraction": 0.9198
+            },
+            "greeting Wick warmly": {
+              "count": 11,
+              "fraction": 0.0679
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 158,
+              "fraction": 0.9753
+            },
+            "telling a recurring story": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "acknowledging the Lamp-Key and procedure": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "57": {
+        "loop": 57,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 107,
+              "fraction": 0.6605
+            },
+            "greeting Wick warmly": {
+              "count": 47,
+              "fraction": 0.2901
+            },
+            "inviting Wick to stay": {
+              "count": 8,
+              "fraction": 0.0494
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "58": {
+        "loop": 58,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 134,
+              "fraction": 0.8272
+            },
+            "greeting Wick warmly": {
+              "count": 25,
+              "fraction": 0.1543
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 159,
+              "fraction": 0.9815
+            },
+            "telling a recurring story": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "59": {
+        "loop": 59,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 147,
+              "fraction": 0.9074
+            },
+            "greeting Wick warmly": {
+              "count": 13,
+              "fraction": 0.0802
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 159,
+              "fraction": 0.9815
+            },
+            "telling a recurring story": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "60": {
+        "loop": 60,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 145,
+              "fraction": 0.8951
+            },
+            "greeting Wick warmly": {
+              "count": 15,
+              "fraction": 0.0926
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 157,
+              "fraction": 0.9691
+            },
+            "telling a recurring story": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "61": {
+        "loop": 61,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 130,
+              "fraction": 0.8025
+            },
+            "greeting Wick warmly": {
+              "count": 30,
+              "fraction": 0.1852
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "62": {
+        "loop": 62,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 145,
+              "fraction": 0.8951
+            },
+            "greeting Wick warmly": {
+              "count": 17,
+              "fraction": 0.1049
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 158,
+              "fraction": 0.9753
+            },
+            "telling a recurring story": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "63": {
+        "loop": 63,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 124,
+              "fraction": 0.7654
+            },
+            "greeting Wick warmly": {
+              "count": 37,
+              "fraction": 0.2284
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "64": {
+        "loop": 64,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 142,
+              "fraction": 0.8765
+            },
+            "greeting Wick warmly": {
+              "count": 18,
+              "fraction": 0.1111
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "65": {
+        "loop": 65,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 134,
+              "fraction": 0.8272
+            },
+            "greeting Wick warmly": {
+              "count": 24,
+              "fraction": 0.1481
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "telling a recurring story": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "66": {
+        "loop": 66,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 130,
+              "fraction": 0.8025
+            },
+            "greeting Wick warmly": {
+              "count": 28,
+              "fraction": 0.1728
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "telling a recurring story": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "67": {
+        "loop": 67,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 144,
+              "fraction": 0.8889
+            },
+            "greeting Wick warmly": {
+              "count": 16,
+              "fraction": 0.0988
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 155,
+              "fraction": 0.9568
+            },
+            "telling a recurring story": {
+              "count": 7,
+              "fraction": 0.0432
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "68": {
+        "loop": 68,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 145,
+              "fraction": 0.8951
+            },
+            "greeting Wick warmly": {
+              "count": 16,
+              "fraction": 0.0988
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 150,
+              "fraction": 0.9259
+            },
+            "telling a recurring story": {
+              "count": 12,
+              "fraction": 0.0741
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "69": {
+        "loop": 69,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 117,
+              "fraction": 0.7222
+            },
+            "greeting Wick warmly": {
+              "count": 41,
+              "fraction": 0.2531
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "70": {
+        "loop": 70,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 123,
+              "fraction": 0.7593
+            },
+            "greeting Wick warmly": {
+              "count": 36,
+              "fraction": 0.2222
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "71": {
+        "loop": 71,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 109,
+              "fraction": 0.6728
+            },
+            "greeting Wick warmly": {
+              "count": 46,
+              "fraction": 0.284
+            },
+            "inviting Wick to stay": {
+              "count": 7,
+              "fraction": 0.0432
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "72": {
+        "loop": 72,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 115,
+              "fraction": 0.7099
+            },
+            "greeting Wick warmly": {
+              "count": 42,
+              "fraction": 0.2593
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "73": {
+        "loop": 73,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 132,
+              "fraction": 0.8148
+            },
+            "greeting Wick warmly": {
+              "count": 30,
+              "fraction": 0.1852
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "74": {
+        "loop": 74,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 106,
+              "fraction": 0.6543
+            },
+            "greeting Wick warmly": {
+              "count": 50,
+              "fraction": 0.3086
+            },
+            "inviting Wick to stay": {
+              "count": 6,
+              "fraction": 0.037
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "75": {
+        "loop": 75,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 119,
+              "fraction": 0.7346
+            },
+            "greeting Wick warmly": {
+              "count": 34,
+              "fraction": 0.2099
+            },
+            "inviting Wick to stay": {
+              "count": 9,
+              "fraction": 0.0556
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "76": {
+        "loop": 76,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 126,
+              "fraction": 0.7778
+            },
+            "greeting Wick warmly": {
+              "count": 33,
+              "fraction": 0.2037
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 160,
+              "fraction": 0.9877
+            },
+            "telling a recurring story": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "77": {
+        "loop": 77,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 129,
+              "fraction": 0.7963
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "78": {
+        "loop": 78,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 128,
+              "fraction": 0.7901
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "79": {
+        "loop": 79,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 129,
+              "fraction": 0.7963
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "80": {
+        "loop": 80,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 127,
+              "fraction": 0.784
+            },
+            "greeting Wick warmly": {
+              "count": 32,
+              "fraction": 0.1975
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 154,
+              "fraction": 0.9506
+            },
+            "telling a recurring story": {
+              "count": 8,
+              "fraction": 0.0494
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "81": {
+        "loop": 81,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 108,
+              "fraction": 0.6667
+            },
+            "greeting Wick warmly": {
+              "count": 46,
+              "fraction": 0.284
+            },
+            "inviting Wick to stay": {
+              "count": 8,
+              "fraction": 0.0494
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "82": {
+        "loop": 82,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 110,
+              "fraction": 0.679
+            },
+            "greeting Wick warmly": {
+              "count": 47,
+              "fraction": 0.2901
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "83": {
+        "loop": 83,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 128,
+              "fraction": 0.7901
+            },
+            "greeting Wick warmly": {
+              "count": 33,
+              "fraction": 0.2037
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "84": {
+        "loop": 84,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 123,
+              "fraction": 0.7593
+            },
+            "greeting Wick warmly": {
+              "count": 33,
+              "fraction": 0.2037
+            },
+            "inviting Wick to stay": {
+              "count": 6,
+              "fraction": 0.037
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "acknowledging the Lamp-Key and procedure": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "85": {
+        "loop": 85,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 108,
+              "fraction": 0.6667
+            },
+            "greeting Wick warmly": {
+              "count": 46,
+              "fraction": 0.284
+            },
+            "inviting Wick to stay": {
+              "count": 8,
+              "fraction": 0.0494
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "86": {
+        "loop": 86,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 122,
+              "fraction": 0.7531
+            },
+            "greeting Wick warmly": {
+              "count": 36,
+              "fraction": 0.2222
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "87": {
+        "loop": 87,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 144,
+              "fraction": 0.8889
+            },
+            "greeting Wick warmly": {
+              "count": 17,
+              "fraction": 0.1049
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "88": {
+        "loop": 88,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 114,
+              "fraction": 0.7037
+            },
+            "greeting Wick warmly": {
+              "count": 44,
+              "fraction": 0.2716
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "89": {
+        "loop": 89,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 129,
+              "fraction": 0.7963
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 154,
+              "fraction": 0.9506
+            },
+            "telling a recurring story": {
+              "count": 8,
+              "fraction": 0.0494
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "90": {
+        "loop": 90,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 111,
+              "fraction": 0.6852
+            },
+            "greeting Wick warmly": {
+              "count": 47,
+              "fraction": 0.2901
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "91": {
+        "loop": 91,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 108,
+              "fraction": 0.6667
+            },
+            "greeting Wick warmly": {
+              "count": 53,
+              "fraction": 0.3272
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "92": {
+        "loop": 92,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 127,
+              "fraction": 0.784
+            },
+            "greeting Wick warmly": {
+              "count": 34,
+              "fraction": 0.2099
+            },
+            "inviting Wick to stay": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "93": {
+        "loop": 93,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 131,
+              "fraction": 0.8086
+            },
+            "greeting Wick warmly": {
+              "count": 29,
+              "fraction": 0.179
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "94": {
+        "loop": 94,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 127,
+              "fraction": 0.784
+            },
+            "greeting Wick warmly": {
+              "count": 32,
+              "fraction": 0.1975
+            },
+            "inviting Wick to stay": {
+              "count": 3,
+              "fraction": 0.0185
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 157,
+              "fraction": 0.9691
+            },
+            "telling a recurring story": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "95": {
+        "loop": 95,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 134,
+              "fraction": 0.8272
+            },
+            "greeting Wick warmly": {
+              "count": 28,
+              "fraction": 0.1728
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 156,
+              "fraction": 0.963
+            },
+            "telling a recurring story": {
+              "count": 6,
+              "fraction": 0.037
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "96": {
+        "loop": 96,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 109,
+              "fraction": 0.6728
+            },
+            "greeting Wick warmly": {
+              "count": 49,
+              "fraction": 0.3025
+            },
+            "inviting Wick to stay": {
+              "count": 4,
+              "fraction": 0.0247
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "97": {
+        "loop": 97,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 117,
+              "fraction": 0.7222
+            },
+            "greeting Wick warmly": {
+              "count": 39,
+              "fraction": 0.2407
+            },
+            "inviting Wick to stay": {
+              "count": 6,
+              "fraction": 0.037
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "98": {
+        "loop": 98,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 128,
+              "fraction": 0.7901
+            },
+            "greeting Wick warmly": {
+              "count": 27,
+              "fraction": 0.1667
+            },
+            "inviting Wick to stay": {
+              "count": 7,
+              "fraction": 0.0432
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 161,
+              "fraction": 0.9938
+            },
+            "telling a recurring story": {
+              "count": 1,
+              "fraction": 0.0062
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "99": {
+        "loop": 99,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 132,
+              "fraction": 0.8148
+            },
+            "greeting Wick warmly": {
+              "count": 28,
+              "fraction": 0.1728
+            },
+            "inviting Wick to stay": {
+              "count": 2,
+              "fraction": 0.0123
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      },
+      "100": {
+        "loop": 100,
+        "active_seeds": 3,
+        "total_strides": 162,
+        "characters": {
+          "Gleaner": {
+            "tending the chapel": {
+              "count": 111,
+              "fraction": 0.6852
+            },
+            "greeting Wick warmly": {
+              "count": 46,
+              "fraction": 0.284
+            },
+            "inviting Wick to stay": {
+              "count": 5,
+              "fraction": 0.0309
+            }
+          },
+          "Brannoch": {
+            "mending the unfinished net": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Dov": {
+            "inspecting the mechanism": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          },
+          "Ysolde": {
+            "watching from the painted portrait": {
+              "count": 162,
+              "fraction": 1.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "visitation": {
+    "total_strides_early": 1620,
+    "total_strides_late": 1620,
+    "early_node_visits": {
+      "20,0": 138,
+      "20,1": 135,
+      "20,2": 116,
+      "20,3": 94,
+      "19,0": 133,
+      "18,0": 116,
+      "20,4": 81,
+      "20,5": 70,
+      "20,6": 60,
+      "20,7": 55,
+      "20,8": 38,
+      "20,9": 21,
+      "17,0": 106,
+      "16,0": 93,
+      "15,0": 75,
+      "14,0": 61,
+      "13,0": 53,
+      "12,0": 40,
+      "11,0": 28,
+      "10,0": 24,
+      "20,10": 12,
+      "21,10": 4,
+      "10,1": 15,
+      "10,2": 9,
+      "10,3": 2,
+      "19,10": 5,
+      "18,10": 2,
+      "22,10": 4,
+      "23,10": 6,
+      "24,10": 2,
+      "10,4": 1,
+      "10,5": 1,
+      "10,6": 2,
+      "10,7": 4,
+      "10,8": 5,
+      "10,9": 2,
+      "10,10": 1,
+      "11,10": 1,
+      "24,11": 2,
+      "24,12": 1,
+      "24,13": 1,
+      "24,14": 1
+    },
+    "late_node_visits": {
+      "19,0": 30,
+      "18,0": 28,
+      "17,0": 29,
+      "16,0": 27,
+      "15,0": 27,
+      "14,0": 31,
+      "13,0": 32,
+      "12,0": 30,
+      "11,0": 30,
+      "10,0": 30,
+      "10,1": 33,
+      "10,2": 55,
+      "10,3": 452,
+      "10,4": 396,
+      "10,5": 25,
+      "20,0": 3,
+      "20,1": 8,
+      "20,2": 11,
+      "20,3": 11,
+      "20,4": 13,
+      "20,5": 9,
+      "20,6": 10,
+      "20,7": 13,
+      "20,8": 15,
+      "20,9": 13,
+      "20,10": 12,
+      "19,10": 24,
+      "18,10": 33,
+      "21,10": 9,
+      "17,10": 17,
+      "16,10": 10,
+      "15,10": 12,
+      "10,6": 10,
+      "10,7": 5,
+      "14,10": 11,
+      "13,10": 6,
+      "22,10": 6,
+      "23,10": 3,
+      "24,10": 3,
+      "24,11": 3,
+      "24,12": 5,
+      "24,13": 12,
+      "24,14": 12,
+      "23,14": 9,
+      "22,14": 7,
+      "21,14": 9,
+      "20,14": 7,
+      "19,14": 5,
+      "18,14": 5,
+      "17,14": 2,
+      "10,8": 5,
+      "10,9": 5,
+      "10,10": 1,
+      "11,10": 3,
+      "12,10": 2,
+      "16,14": 2,
+      "15,14": 4
+    }
+  }
+}

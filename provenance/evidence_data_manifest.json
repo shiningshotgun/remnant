@@ -1,0 +1,37 @@
+{
+  "schema": "remnant.evidence_data_manifest/1.0.0",
+  "description": "Lossless gzip storage of two historical baseline files. Raw byte sizes and SHA-256 values are authoritative (they match results/manifest.json and results/audit_manifest.json). Compressed values describe the shipped .gz bytes, which may differ if recompressed with another runtime. Paths are fixed in tools/unpack_evidence.py; this file cannot choose destinations.",
+  "compression": {
+    "format": "gzip (RFC 1952), single member",
+    "tool": "Python standard library gzip.GzipFile",
+    "compresslevel": 9,
+    "header_filename": "",
+    "mtime": 0
+  },
+  "entries": [
+    {
+      "compressed": {
+        "path": "results/records.json.gz",
+        "bytes": 3224849,
+        "sha256": "51653c1191f242553ee571d83e20a8e803b5ea234806975dc6b898dc8f76a339"
+      },
+      "raw": {
+        "path": "results/records.json",
+        "bytes": 277819583,
+        "sha256": "7f8f0c7c9c3e5dd7e0a1ebf9f697f95571c50293634898c3e68ee56825a40498"
+      }
+    },
+    {
+      "compressed": {
+        "path": "results/learners.json.gz",
+        "bytes": 1150294,
+        "sha256": "0cda144b944f82ea9c13ddf0679ebb2e2fb49d6fee5648310868b3d73be97770"
+      },
+      "raw": {
+        "path": "results/learners.json",
+        "bytes": 65805407,
+        "sha256": "3bd4e1f067e0d0ad0e908ce497c291dab631c47f5554ec872f11b8825e316a39"
+      }
+    }
+  ]
+}

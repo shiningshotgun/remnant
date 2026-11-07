@@ -1,0 +1,40 @@
+{
+  "pilot_seeds": [
+    201,
+    202,
+    203
+  ],
+  "total_seeds": 3,
+  "horizon_k_max": 100,
+  "wall_clock_seconds": 22.57,
+  "peak_rss_mb": 84.33,
+  "artifact_bytes": {
+    "outcomes.json": 187921,
+    "manifest.json": 3073,
+    "records.json": 27789941,
+    "learners.json": 6612244
+  },
+  "total_artifact_bytes": 34593179,
+  "store_growth_per_seed": {
+    "201": {
+      "memory_entries": 5400,
+      "q_entries": 227,
+      "model_transitions": 227
+    },
+    "202": {
+      "memory_entries": 5400,
+      "q_entries": 225,
+      "model_transitions": 225
+    },
+    "203": {
+      "memory_entries": 5400,
+      "q_entries": 233,
+      "model_transitions": 233
+    }
+  },
+  "study_summary": {
+    "escaped_count": 0,
+    "censored_count": 3,
+    "total_records": 16200
+  }
+}

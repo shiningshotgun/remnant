@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0.0",
+  "provenance": {
+    "original_training_commit": "b375bba441f62dd5d1dc6754229cb74e1fd66eb2",
+    "original_evidence_commit": "c0f2e4f03c900e1f2c0892f5fadae369880e0e9e",
+    "audit_machinery_commit": "7845e8f77876dbb71c5ae6a4be83a7162f76b6fa",
+    "notes": "results/manifest.json hashes the ORIGINAL figures; this audit manifest hashes the corrected presentation figures and documents."
+  },
+  "environment": {
+    "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "machine": "arm64",
+    "verified_installed_packages": {
+      "matplotlib": "3.9.2",
+      "pillow": "11.3.0",
+      "numpy": "2.0.2"
+    },
+    "provenance": "User-reported original macOS audit runtime; not independently recoverable from source ZIP"
+  },
+  "frozen_result_hashes_sha256": {
+    "records.json": "7f8f0c7c9c3e5dd7e0a1ebf9f697f95571c50293634898c3e68ee56825a40498",
+    "learners.json": "3bd4e1f067e0d0ad0e908ce497c291dab631c47f5554ec872f11b8825e316a39",
+    "outcomes.json": "07d35e7fdd2f61785a3903cee09751bd5a8fdd9f51d52b4829ff259c5990b43b",
+    "manifest.json": "baf4ff7db17fad450fb1dadc260330fd8f8accd0d6a6eba8ac6b9eb2b5b2e276"
+  },
+  "audit_report_sha256": "ff5c30e6c1a102a636df2f14c8e70324dac0cf56d7fdb5fdd96dc282743564fc",
+  "presentation_hashes_sha256": {
+    "figures/reach-map.png": "ed48b113c1118ceb4bf8962efc373b31b5ff7eb8ed8298a190697a3ee71c88d9",
+    "figures/visit-frequency.png": "2241672a4a7314dff2763c9c256e5556a66b23818ef4e9741517f80b6db556c1",
+    "figures/stride-economy.png": "489b558b7a9425e8c533b90b63df4a42f6f62523292c40c495183bb4c8b0fb76",
+    "figures/escape-timing.png": "3ef1161e517449ce7922580fc776364101331a0cda8e33d6769cd618605d2b80",
+    "figures/pearls-taken.png": "38d6c5f9bf6891be02433746f3ec3d94097e3641a2472ab6324809c7ec1c8ef0",
+    "figures/route-choices.png": "5532a0876aa3ddd0fc33d5d7b16ed3d17e7355ad5826b040f83bd41b0ec22b5d",
+    "figures/character-activity.png": "310d48b694b17a00c54d0827cd5c8c65bb8bca4d97476d7115dca90ad5fcc236",
+    "docs/methods.md": "f0ce66f2a3ec5507a90adcf48760f03e96193246c7dff12975c68874a6e4bd51",
+    "docs/results.md": "84bdcb123772262423ee98db6a2a3a9a9f610d8f6fa1a7ef9e2807ee6878f20e",
+    "README.md": "fffe5e6a671bbbee51ed10c99b4375e192231f9586783282b2fbaed698b0b7d8"
+  },
+  "verification_scope": {
+    "replayed_physical_transitions": 162000,
+    "reconstructed_models": 30,
+    "outcomes_exact_match": true,
+    "test_suite_status": "73 tests passed, 0 failures, 0 errors"
+  },
+  "original_run_environment": {
+    "installed_package_versions": null,
+    "status": "Unknown unless supported by retained original-run logs; audit versions are not original-run versions"
+  },
+  "locked_dependencies": {
+    "source": "requirements.lock.txt",
+    "versions": {
+      "contourpy": "1.3.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.60.2",
+      "importlib_resources": "6.5.2",
+      "kiwisolver": "1.4.7",
+      "matplotlib": "3.9.2",
+      "numpy": "2.0.2",
+      "packaging": "26.3",
+      "pillow": "11.3.0",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "3.0.0",
+      "six": "1.17.0",
+      "tzdata": "2026.6",
+      "zipp": "3.23.1"
+    },
+    "meaning": "Locked requirements, not proof of original installed versions"
+  },
+  "configuration": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "horizon_k_max": 100,
+    "loop_limit": 54,
+    "learning_rate": 0.3,
+    "gamma": 0.95,
+    "epsilon": 0.2,
+    "memory_blend": 0.5,
+    "memory_temperature": 0.1,
+    "memory_lookup_sample": 400,
+    "gross_rewards": {
+      "pearls": 1.0,
+      "lamp_key": 0.1,
+      "tidegate": 10.0
+    },
+    "stride_cost": -0.01,
+    "source": [
+      "remnant_core/study_config.py",
+      "remnant_core/worlds/reach.py"
+    ]
+  },
+  "historical_audit_commands": {
+    "provenance": "Exact commands supplied in user completion report; complete execution logs not packaged",
+    "commands": [
+      "PYTHONPATH=tests .venv/bin/python -m unittest test_characters test_reach_world test_reach_solver test_analysis test_study test_output_safety -v",
+      "PYTHONPATH=tests .venv/bin/python -m unittest test_solver test_reach_solver -v",
+      ".venv/bin/python -m unittest discover -s tests -v",
+      "python3 -m unittest discover -s tests -v",
+      "shasum -a 256 -c sha256_manifest.txt"
+    ],
+    "read_only_verifier": "remnant-verify-frozen.py was reported collected; original absolute invocation/log is not retained in the source ZIP"
+  },
+  "presentation_followup": {
+    "base_evidence_commit_user_reported": "94ecbee05ffe8349d00054fb2f02957c7ae18957",
+    "runtime": {
+      "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+      "platform": "macOS-27.0-arm64-arm-64bit",
+      "machine": "arm64",
+      "verified_installed_packages": {
+        "matplotlib": "3.9.2",
+        "pillow": "11.3.0",
+        "numpy": "2.0.2"
+      }
+    },
+    "command_path_notation": "<verified-python> is this runtime interpreter; <repository-root> and <companion-dir> are resolved private locations omitted from public provenance",
+    "commands_executed": [
+      {
+        "argv": [
+          "<verified-python>",
+          "-m",
+          "unittest",
+          "test_solver",
+          "test_reach_solver",
+          "-v"
+        ],
+        "cwd": "repository root",
+        "environment": {
+          "PYTHONPATH": "tests"
+        },
+        "log": "proof-tests.txt"
+      },
+      {
+        "argv": [
+          "<verified-python>",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "repository root",
+        "log": "full-tests.txt"
+      },
+      {
+        "argv": [
+          "<verified-python>",
+          "<companion-dir>/remnant-verify-frozen.py",
+          "<repository-root>"
+        ],
+        "cwd": "repository root",
+        "log": "frozen-verification.json"
+      },
+      {
+        "python_api": "remnant_core.figures.render_all_figures",
+        "kwargs": {
+          "records_path": "results/records.json",
+          "outcomes_path": "results/outcomes.json",
+          "output_dir": "isolated scratch/figures"
+        },
+        "copied_output_only": "figures/escape-timing.png"
+      },
+      {
+        "python_api": "render_all_figures with TestAnalysis.setUp declared miniature fixture",
+        "protocol_horizon": 3,
+        "outputs": "isolated scratch/mini-figures"
+      }
+    ],
+    "helper_sha256": "b7d41a44b7be7f01d1f717e7674d9b1117126a16c3402b56e7bffc0391fbf029",
+    "verifier_sha256": "41c17ab6964a183e26a2ad57e9f7a149ed7aaeef2b5217ccfd8de1225030157f",
+    "test_counts": {
+      "structural_passed": 10,
+      "full_passed": 73
+    },
+    "verification": {
+      "frozen_hashes": {
+        "records.json": "7f8f0c7c9c3e5dd7e0a1ebf9f697f95571c50293634898c3e68ee56825a40498",
+        "learners.json": "3bd4e1f067e0d0ad0e908ce497c291dab631c47f5554ec872f11b8825e316a39",
+        "outcomes.json": "07d35e7fdd2f61785a3903cee09751bd5a8fdd9f51d52b4829ff259c5990b43b",
+        "manifest.json": "baf4ff7db17fad450fb1dadc260330fd8f8accd0d6a6eba8ac6b9eb2b5b2e276"
+      },
+      "outcomes_exact_match": true,
+      "replayed_transitions": 162000,
+      "reconstructed_models": 30,
+      "training_replays": 0,
+      "pearls_counts": {
+        "1": 0,
+        "10": 0,
+        "25": 8,
+        "50": 16,
+        "75": 27,
+        "100": 28
+      },
+      "pearls_rate_downward_steps": 34,
+      "summary": {
+        "total_seeds": 30,
+        "escaped_count": 0,
+        "censored_count": 30,
+        "escape_rate": 0.0,
+        "mean_escape_loops": null,
+        "min_escape_loop": null,
+        "max_escape_loop": null,
+        "escaped_seeds": [],
+        "censored_seeds": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130
+        ],
+        "escape_distribution": {}
+      }
+    },
+    "visual_gate": "Production and miniature escape figures must be inspected before commit; not certified by command success"
+  },
+  "source_configuration_hashes_sha256": {
+    "remnant_core/figures.py": "2ff4f96388d37c3c42521ad9837b42c8f19cfb351ebaab21158b0139f18e4923",
+    "remnant_core/study_config.py": "5daa8acd8dac98b9b264f90cb58728657a7117f08cc83c55785e89a44735c9bb",
+    "remnant_core/worlds/reach.py": "166f99fe753907c9f3ed0082466b60097758fa6999691e8a78606ab855c67059",
+    "requirements.lock.txt": "2d29f55ff25e8fd05e0cea4f74b14008970941bbc4f5ffc2c37c3cd5d9bd5856"
+  }
+}

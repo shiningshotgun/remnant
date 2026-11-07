@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.venv/
+work_done.md
+# Unpacked raw evidence (python3 tools/unpack_evidence.py); the .gz files are tracked
+/results/records.json
+/results/learners.json
